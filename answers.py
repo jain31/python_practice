@@ -44,3 +44,18 @@
 #     print(f"{a} is odd")
 
 #5. wap of greater among three
+# a = int(input("Enter first number -> "))
+# b = int(input("Enter second number -> "))
+# c = int(input("Enter third number -> "))
+# if a<b:
+#     if c<b:
+#         print(f"{b} is greatest number")
+#     elif b<c:
+#         print(f"{c} is greatest number")
+# elif b<a:
+#         if c<a:
+#             print(f"{a} is greatest number")
+#         elif b<c:
+#             print(f"{c} is greatest number")
+# else:
+#      print(f"number")
