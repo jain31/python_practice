@@ -59,3 +59,19 @@
 #             print(f"{c} is greatest number")
 # else:
 #      print(f"number")
+
+# 6.wap to accept percentage from the user and display grade
+# >90 = A grade
+# >80 and <=90 = B grade
+# >=60 and <=80 =c grade
+# below = d
+
+x = int(input("Enter any percentage -> "))
+if x>= 90:
+    print("A grade")
+elif x>80 & x<=90:
+    print("B grade")
+elif x>=60 & x<=80:
+    print("C grade")
+else:
+    print("D grade")
