@@ -66,12 +66,33 @@
 # >=60 and <=80 =c grade
 # below = d
 
-x = int(input("Enter any percentage -> "))
-if x>= 90:
-    print("A grade")
-elif x>80 & x<=90:
-    print("B grade")
-elif x>=60 & x<=80:
-    print("C grade")
-else:
-    print("D grade")
+# x = int(input("Enter any percentage -> "))
+# if x>= 90:
+#     print("A grade")
+# elif x>80 & x<=90:
+#     print("B grade")
+# elif x>=60 & x<=80:
+#     print("C grade")
+# else:
+#     print("D grade")
+
+# 7.wap to aceept cost price of a bike and display road tax to be paid accordingly 
+# cp         tax
+# >100000    15%
+# >50000     10%
+# <=50000    5%
+
+# x = int(input("Enter any cp -> "))
+# if x>100000:
+#     print("tax = 15%")
+# elif x>50000:
+#     print("tax = 10%")
+# else:
+#     print("tax = 5%")
+
+#8.Accept the working day and per day income of man and calculate salary
+
+x = int(input("Enter the working day of the man = "))
+y = int(input("Enter the per day income = "))
+sal = x*y
+print(f"salary of the man = {sal}")
