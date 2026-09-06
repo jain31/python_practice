@@ -1,4 +1,5 @@
-#1.wap to add,sub,multi,divide in a single program 
+#1.
+
 # a = int(input("Enter first number -> "))
 # b = int(input("Enter second number -> "))
 # print("choose following for the calculation\n")
@@ -17,7 +18,8 @@
 
 # print("calculation done")
 
-#2. dynamic swapping using third variable
+#2. 
+
 # a = int(input("Enter first number -> "))
 # b = int(input("Enter second number -> "))
 # print ("--before swapping--")
@@ -27,7 +29,9 @@
 # b = c
 # print("--after swapping--")
 # print(f"a =",a,"b =",b)
-#3. dynamic swapping wihtout using third variable
+
+#3.
+
 # a = int(input("Enter first number -> "))
 # b = int(input("Enter second number -> "))
 # print ("--before swapping--")
@@ -36,14 +40,16 @@
 # print("--after swapping--")
 # print(f"a =",a,"b =",b)
 
-#4. wap of odd and even 
+#4.
+
 # a = int(input("Enter a number -> "))
 # if a%2 ==0:
 #     print(f"{a} is even")
 # else:
 #     print(f"{a} is odd")
 
-#5. wap of greater among three
+#5.
+
 # a = int(input("Enter first number -> "))
 # b = int(input("Enter second number -> "))
 # c = int(input("Enter third number -> "))
@@ -60,12 +66,7 @@
 # else:
 #      print(f"number")
 
-# 6.wap to accept percentage from the user and display grade
-# >90 = A grade
-# >80 and <=90 = B grade
-# >=60 and <=80 =c grade
-# below = d
-
+# 6.
 # x = int(input("Enter any percentage -> "))
 # if x>= 90:
 #     print("A grade")
@@ -76,12 +77,7 @@
 # else:
 #     print("D grade")
 
-# 7.wap to aceept cost price of a bike and display road tax to be paid accordingly 
-# cp         tax
-# >100000    15%
-# >50000     10%
-# <=50000    5%
-
+# 7.
 # x = int(input("Enter any cp -> "))
 # if x>100000:
 #     print("tax = 15%")
@@ -90,9 +86,67 @@
 # else:
 #     print("tax = 5%")
 
-#8.Accept the working day and per day income of man and calculate salary
+#8.
+# x = int(input("Enter the working day of the man = "))
+# y = int(input("Enter the per day income = "))
+# sal = x*y
+# print(f"salary of the man = {sal}")
 
-x = int(input("Enter the working day of the man = "))
-y = int(input("Enter the per day income = "))
-sal = x*y
-print(f"salary of the man = {sal}")
+# #9.
+# t = int(input("Enter your time period"))
+# sal = int(input("Enter your salary"))
+# bonus = 0
+# if t>10:
+#     bonus = 10*sal/100
+# elif t>=6 and t<=10:
+#     bonus = 8*sal/100
+# else:
+#     bonus = 5*sal/100
+# print(f"bonus = {bonus}")
+
+#10 
+
+# while True:
+#     a = int(input("Enter the first number"))
+#     b = int(input("Enter the second number")) 
+#     op = input("Enter the operator = +,-,/,* = ")
+#     if op == "+":
+#         answer = a+b
+#     elif op == "-":
+#         answer = a-b
+#     elif op == "/":
+#         answer = a/b
+#     elif op == "*":
+#         answer = a*b
+#     else:
+#         print("invalid option")
+
+#     print(f"final output = {answer}")
+#     x = input("Enter 0 to end the program -> ")
+#     if x == 0:
+#         break
+#     else:
+#         continue
+# 11
+# for i in range(1,11):
+#     print(i)
+# 12
+# for i in range(1,11):
+#     if i%2 == 0:
+#         print(i)
+#13
+# for i in range(1,11):
+#     if i%2 != 0:
+#         print(i)
+#14
+
+
+
+
+
+
+
+
+
+
+
