@@ -214,4 +214,120 @@ sum = 0
 # else:
 #     print("confused")
 # print(amt)
-#24
+#26
+# num = int(input("Enter a number"))
+# sum = 0
+# while num > 0:
+#     digit = num % 10
+#     sq = digit**2
+#     sum+= sq
+#     num=num//10
+# print(sum)
+# 27
+# num = int(input("Enter a number"))
+# sum = 0
+# while num>0:
+#     digit = num%10
+#     cu = digit**3
+#     sum+=cu
+#     num=num//10
+# print(sum)
+# 28
+# num = int(input("Enter a number"))
+# prod = 1
+# while num>0:
+#     digit = num%10
+#     prod*=digit
+#     num = num//10
+# print(prod)
+# 29
+# num = int(input("Enter a number"))
+# rev = 0
+# while num>0:
+#     digit = num%10
+#     rev = rev*10 + digit
+#     num = num//10
+# print(rev)
+# 30 palindrome
+# num = int(input("Enter a number -> "))
+# n = num
+# rev = 0
+# while num >0:
+#     digit = num%10
+#     rev = rev*10+digit
+#     num=num//10
+# print(rev)
+# if n == rev:
+#     print(f"{n} is palindrome ")
+# else:
+#     print("Not")
+#31 armstrong
+# num = int(input("Enter a number -> "))
+# n = num
+# cu = 1
+# while num>0:
+#     digit = num%10
+#     cu = digit**3
+#     sum += cu
+#     num = num//10
+# if sum==n:
+#     print("Armstrong")
+# else:
+#     print("not")
+ #32
+# i = 1
+# while i<=10:
+#     print(i)
+#     i+=1
+#33
+# i = 1
+# while i <=10:
+#     if i%2==0:
+#         print(i)
+#     i+=1
+#34
+# i = 1
+# while i<=10:
+#     if i %2!=0:
+#         print(i)
+#     i+=1
+#35
+# sum = 0
+# i=1
+# while i<=10:
+#     sum+=i
+#     i+=1
+# print(sum)
+#36
+# sum=0
+# i=1
+# while i<=10:
+#     if i%2==0:
+#         sum+=i
+#     i+=1
+# print(sum)
+#37
+# sum=0
+# i =1
+# while i<=10:
+#     if i%2!=0:
+#         sum+=i
+#     i+=1
+# print(sum)
+#38
+# i = 1
+# esum =0
+# osum=0
+# while i<=10:
+#     if i%2==0:
+#         esum+=i
+#     else:
+#         osum+=i
+#     i+=1
+# print(esum,osum)
+#39 factorial
+fact = 1
+n = int(input("Enter a number -> "))
+for i in range(1,n+1):
+    fact*=i
+print(fact)
