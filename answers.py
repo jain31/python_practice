@@ -138,15 +138,80 @@
 # for i in range(1,11):
 #     if i%2 != 0:
 #         print(i)
-#14
+#14 -- 30/09/2026
+sum = 0
+# for i in range(1,11):
+#     sum += i
+# print(sum)
+#15
+# sum = 0
+# for i in range(1,11):
+#     if i%2 == 0:
+#         sum+=i
+# print(sum)
+#16
+# sum = 0
+# for i in range(1,11):
+#     if i%2 != 0:
+#         sum+=i
+# print(sum)
+#17
+# e_sum = 0
+# o_sum = 0
+# for i in range(1,11):
+#     if i%2 == 0:
+#         e_sum+=i
+#     else:
+#         o_sum+=i
+# print(f"sum of even = {e_sum}, odd sum = {o_sum}")
+#18
+# num = int(input("Enter a number -> "))
+# sum = 0
+# while num >0 :
+#     digit = num%10
+#     num = num//10
+#     sum += digit
+# print(sum)
+#19
+# num = int(input("Enter a number -> "))
+# # while num >0:
+# digit = num % 10
+# print(digit)
+#20
+# year = int(input("Enter a year -> "))
+# if year % 400 == 0 or (year % 4 == 0 and year % 100!= 0):
+#     print(f"{year} is leap year")
+# else:
+#     print(f"{year} is not leap year")
+#21
+# num = int(input("Enter a number -> "))
+# if num < 2:
+#     print("Not prime")
+# for i in range (2,num):
+#     if num % i == 0:
+#         print("Not Prime")
+#         break
+#     else:
+#         print("prime")
+#         break
+#22
+# char = input("Enter a charcter -> ")
+# if char in "aeiou":
+#     print("vowel")
+# else:
+#     print("not")
+#23
 
+# units = int(input("Enter number of units -> "))
+# amt = 0
 
-
-
-
-
-
-
-
-
-
+# if units<=100:
+#     amt = 0
+# elif units> 100 and units<=300:
+#     amt = (units - 100)*2
+# elif units>300:
+#     amt = 0+(200*2)+((units-300)*5)
+# else:
+#     print("confused")
+# print(amt)
+#24
