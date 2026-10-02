@@ -20,6 +20,7 @@ more than 10 year    10%
 >=6 and <=10         8%
 less than 6          5%
 10.wap to calculator
+
 (while loop)
 11.print 1 to 10
 12.print even 1 to 10
@@ -49,7 +50,7 @@ first 10 km  -- 11/km rs
 nest 90 km -- 10/km
 after that -- 9/km
 
-26.sqaure of digitsum
+26.sqaure of digit sum
 27.cube of digitsum
 28.product of digitsum
 29.reverse of digit
@@ -66,6 +67,7 @@ after that -- 9/km
 38.print odd and even sum in single program
 
 39.factorial 
+
 40.wap to print length of a string without using built in function
 41.wap to take two string and check both length same or not
 42.wap to count not vowel and consond of a string
@@ -78,7 +80,7 @@ ex-h--0
    l--2
    l--3
    l--4
-# 47.write a program to print all prime number that fall b/w two number including both faccept two number from the user #
+47.write a program to print all prime number that fall b/w two number including both faccept two number from the user 
 48.wap to display sum of odd numbers and even number that fall between 12 and 37(including both number)
 49.write a program to display all the number which are divisible by 11 but not by 2 between 100 and 500
 50.wap to print first 10 integer and their square using while loop
@@ -278,8 +280,8 @@ ex-h--0
 93. wap to find the freqency of a list 
 94. wap to find max of list 
 95. wal to find min of list 
-96. wap to find second max of list
-97. wap to find second min of list
+96. wap to find second max of list---
+97. wap to find second min of list---
 98. wap to find all prime number in a list 
 99. wap to count even and odd number from a list
 100. reverse of stinf using different method

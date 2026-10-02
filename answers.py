@@ -496,6 +496,129 @@ sum = 0
 #     print("Armstrong")
 # else:
 #     print("Not Armstrong")
+#88
+# n = input("Enter a string -> ")
+# dict ={}
+# for i in n:
+#     if i in dict:
+#         dict[i]+=1
+#     else:
+#         dict[i]=1
+# print(dict)
+#89
+# n = int(input("Enter the number of elements -> "))
+# l = []
+# for i in range(1,n+1):
+#     e = int(input(f"Enter elements {i} -> "))
+#     l.append(e)
+# print(l)
+#90
+# n = int(input("Enter the number of elements -> "))
+# l =[]
+# for j in range(n):
+#     e = int(input("Enter elements -> "))
+#     l.append(e)
+# print(f"all elements of list -> {l}")
+# el = []
+# for i in l:
+#     if i % 2 == 0:
+#         el.append(i)
+# print(f"only even elements are shown -> {el}")
+#91
+# n = int(input("Enter size of list -> "))
+# l = []
+# i = 1
+# for i in range (n):
+#     e = int(input(f"Enter the elements of the list {i} -> "))
+#     l.append(e)
+# print(l)
+# ol = []
+# for i in l:
+#     if i % 2 !=0:
+#         ol.append(i)
+# print(ol)
+#92
+# n = int(input("Enter the size of the list -> "))
+# l = []
+# for i in range(1,n+1):
+#     e = int(input(f"enter the element {i}-> "))
+#     l.append(e)
+# print(f"list -> {l}" )
+# el = []
+# el_sum = 0
+# for i in l:
+#     if i % 2 == 0:
+#         el.append(i)
+# print(f"even list -> {el}")
+# for i in el:
+#     el_sum+=i
+# print(f"sum of even numbers - > {el_sum}")
+# ol=[]
+# ol_sum=0
+# for i in l:
+#     if i%2 !=0:
+#         ol.append(i)
+# print(f"odd number list ->{ol}")
+# for i in ol:
+#     ol_sum+=i
+# print(f"odd sum -> {ol_sum}")
+#93
+# l =[]
+# n =int(input("Enter the size of list -> "))
+# for i in range(1,n+1):
+#     e = input(f"Enter the {i} items of list -> ")
+#     l.append(e)
+# print(f"list of all the items -> {l}")
+# d = {}
+# for i in l:
+#     if i in d:
+#         d[i]+=1
+#     else:
+#         d[i]=1
+# print(f"frequency of the items of the list -> {d}")
+#94
+# l = []
+# n = int(input("Enter the size of list -> "))
+# for i in range(n):
+#     e = int(input("Enter element -> "))
+#     l.append(e)
+# print(f"list -> {l}")
+
+# max_val =l[0]
+
+# for i in l:
+#     if i>max_val:
+#         max_val = i
+# print(max_val)
+#95
+# min_val=l[0]
+# for i in l:
+#     if i<min_val:
+#         min_val = i
+# print(min_val)
+#96
+#97
+#98 --- for-else concept
+# l = [3,2,5,12]
+# pl =[]
+# for i in l:
+#     if i > 1:
+#         for j in range(2,i):
+#             if i%j == 0:
+#                 break
+#         else:
+#             pl.append(i)
+# print(pl)
+#99
+
+
+
+
+
+        
+
+
+
 
 
 
