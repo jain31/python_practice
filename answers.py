@@ -326,8 +326,189 @@ sum = 0
 #     i+=1
 # print(esum,osum)
 #39 factorial
-fact = 1
-n = int(input("Enter a number -> "))
-for i in range(1,n+1):
-    fact*=i
-print(fact)
+# fact = 1
+# n = int(input("Enter a number -> "))
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)
+#40 -- 1/10/2026
+# n = input("Enter the string finding length")
+# length = 0
+# for i in n:
+#     length+=1
+# print(length)
+#41
+# a = input("ENter string first -> ")
+# b = input("Enter string second -> ")
+# if len(a) == len(b):
+#     print("Same length")
+# else:
+#     print("Not")
+#42
+# n = input("enter a string -> ")
+# v_count = 0
+# c_count = 0
+# for i in n:
+#     if i in "aeiou":
+#         v_count+=1
+#     else:
+#         c_count+=1
+# print(v_count,c_count)
+#43
+# n = input("Enter a string -> ")
+# r = ""
+# for i in n:
+#     r = i+r
+# print(r)
+#44
+# for i in range(10,0,-1):
+#     print(i)
+#45
+# x = input("Enter a string -> ")
+# c = input("Enter the charcter which you want to count in the given string -> ")
+# count = 0
+# for i in x:
+#     if i == c:
+#         count+=1
+#     else:
+#         pass
+# print(count)
+#46
+# n = input("Enter a string -> ")
+# for i in range (0,len(n)):
+#     print(f"{n[i]}->{i}")
+#47
+# a = int(input("Enter first number -> "))
+# b = int(input("Enter second number -> "))
+
+# def isprime(n):
+#     if n<2:
+#         return False
+    
+#     for i in range (2,n):
+#         if n % i == 0:
+#             return False
+#     return True
+
+# for x in range (a,b+1):
+#     if isprime(x):
+#         print(x)
+#48
+# a = int(input("Enter first number -> "))
+# b = int(input("Enter second number -> "))
+# e_sum = 0
+# o_sum = 0
+# for i in range(a,b+1):
+#     if i % 2 == 0:
+#         e_sum+=i
+#     else:
+#         o_sum+=i
+# print(e_sum,o_sum)
+#49
+# for i in range(100,501):
+#     if i % 11 ==0 and i%2 !=0:
+#         print(i)
+#50
+# n =1
+# while n <=10:
+#     sq = n**2
+#     print(f"{n}-->{sq}")
+#     n+=1
+#51
+# n = 10
+# while n<=300:
+#     print(f"{n} ",end ="")
+#     n+=10
+#52
+# n = 105
+# while n >=7:
+#     print(f"{n} ",end ="")
+#     n-=7
+#53
+# n = 10
+# while n>0:
+#     print(n,end=" ")
+#     n-=1
+#54
+# for i in range(2,11):
+#     for j in range(2,11):
+#         print(f"{i}*{j} = {i*j}")
+#     print()
+# 55
+# i = 1
+# n = int(input("enter a number which table you want -> "))
+# while(i<=10):
+#     print(f"{n}x{i}={n*i}")
+#     i+=1
+#56
+# a = int(input("eneter first number -> "))
+# b = int(input("Enter second number -> "))
+# i = a
+# while i<b:
+#     if i % 2==0:
+#         print(i)
+#     i+=1
+# print()
+#57
+# n = int(input("Enter a number -> "))
+# i = 2
+# if n<2:
+#     print("Not prime")
+# while i<=n:
+#     if n % i ==0:
+#         print("Not prime")
+#         break
+#     else:
+#         print("Prime")
+#         break
+#58 fibonacci series
+# n = int(input("Enter number of terms: "))
+# a = 0
+# b = 1
+# i = 0
+# while i < n:
+#     print(a, end=" ")
+    
+#     c = a + b
+#     a = b
+#     b = c    
+#     i = i + 1
+#59
+# n = int(input("Enter a number -> "))
+# fact = 1
+# i = 1
+# while i<=n:
+#     fact = fact * i
+#     i+=1
+# print(fact)
+#60
+# num = int(input("Enter a number: "))
+
+# original = num
+# sum = 0
+
+# while num > 0:
+#     digit = num % 10
+#     sum = sum + digit ** 3
+#     num = num // 10
+
+# if sum == original:
+#     print("Armstrong")
+# else:
+#     print("Not Armstrong")
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
