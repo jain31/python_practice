@@ -610,6 +610,70 @@ sum = 0
 #             pl.append(i)
 # print(pl)
 #99
+# n = int(input("Enter the size of the list -> "))
+# l=[]
+# for i in range(1,n+1):
+#     e = int(input("Enter elements -> "))
+#     l.append(e)
+# print(f"list - > {l}")
+# ecount=0
+# ocount=0
+# for i in l:
+#     if i %2 ==0:
+#         ecount+=1
+#     else:
+#         ocount+=1
+# print(ecount,ocount)
+#100
+# s = input("Enter a string -> ")
+# r = s[::-1]
+# print(r)
+#101
+# s = input("Enter a string -> ")
+# d = {}
+# for i in s:
+#     if i in d:
+#         d[i]+=1
+#     else:
+#         d[i]=1
+# print(d)
+#102
+# def sum(a,b,c):
+#     return a+b+c
+# print(sum(2,3,4))
+#103
+# n = int(input("Enter any number -> "))
+# def even(n):
+#     if n % 2 ==0:
+#         return "even"
+#     else:
+#         return "odd"
+# print(even(n))
+#104
+# def sum(s):
+#     for i in range(1,11):
+#         s+=i
+#     return s
+# print(sum(0))
+#105
+# def eocount(ecount,ocount):
+#     for i in range(1,12):
+#         if i % 2==0:
+#             ecount+=1
+#         else:
+#             ocount+=1
+#     return ecount,ocount
+# print(eocount(ecount=0,ocount=0))
+#106
+# def sum(esum,osum):
+#     for i in range(1,11):
+#         if i % 2==0:
+#             esum+=i
+#         else:
+#             osum+=i
+#     return esum,osum
+# print(sum(esum =0,osum=0))
+#107
 
 
 
