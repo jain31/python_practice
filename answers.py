@@ -673,15 +673,209 @@ sum = 0
 #             osum+=i
 #     return esum,osum
 # print(sum(esum =0,osum=0))
-#107
+#107--3/10/2026
+# def table(n):
+#     for i in range(1,11):
+#        print (f"{i} * {n} = {i*n}")
+# table(2)
+#108
+# n = int(input("Enter any integer number -> "))
+# def factorial(n):
+#     fact = 1
+#     i = 1
+#     for i in range(1,n+1):
+#         fact = fact* i
+#     return fact
+# print(factorial(n))
+#bonus --- while else
+# attempts = 0
 
+# while attempts < 3:
+#     password = input("Enter password: ")
+#     if password == "secret":
+#         print("Access granted!")
+#         break  # Skips the else block
+#     attempts += 1
+# else:
+#     print("Account locked. Too many failed attempts.")  # Runs if loop completes without break
+#109
+# def isprime(n):
+#     if n>1:
+#         for i in range(2,n+1):
+#             if  n % i != 0:
+#                 return " prime"
+#             else:
+#                 return "not prime"
+# print(isprime(7))
+#110
+# n = int(input("Enter the size of the list -> "))
+# l = []
+# for i in range (1,n+1):
+#     e = int(input("Enter element -> "))
+#     l.append(e)
+# print(l)
+# for i in range (len(l)):
+#     temp = l[0]
+#     l[0]=l[-1]
+#     l[-1]=temp
+# print(l)
+#111
+# l = [2,3,4,5,6,7,8,9,0]
+# def swap(l,n1,n2):
+#     for i in range (len(l)):
+#         temp = l[n1]
+#         l[n1] = l[n2]
+#         l[n2] = temp
+#     return l
+# print(swap(l,2,0))
+#112
+#113#114
+'''already done'''
+#115
+# n = int(input("Enter the size of the list -> "))
+# l = []
+# for i in range(1,n+1):
+#     e = int(input(f"enter {i} element -> "))
+#     l.append(e)
+# print(l)
+# item = int(input("Enter the element which you want to find -> "))
+# for i in range(len(l)):
+#     if item == i:
+#         print(f"found {i} at index {l[i]}")
+#         break
+#     else:
+#         continue
+#116
+# l = [0,1,2,3,2,21,11,22,5]
+# print(l)
+# l.clear()
+# print(l)
+#117
+# l.reverse()
+# print(l)
+#118
+# l1 = l.copy()
+# print(l1)        
+#119
+# n = int(input("Enter the size of list = "))
+# l = []
+# for i in range(n):
+#     e = input(f"Enter {i} element -> ")
+#     l.append(e)
+# print(l)
+# d ={}
+# for i in l:
+#     if i in d:
+#         d[i]+=1
+#     else:
+#         d[i]=1
+# print(d)
+#120
+# n = int(input("Enter the size of list = "))
+# l = []
+# for i in range(n):
+#     e = int(input(f"Enter {i} element -> "))
+#     l.append(e)
+# print(l)
+# sum = 0
+# for i in l:
+#     sum+=i
+# print(f"Sum of the elements of the list = {sum}")
+# avg = sum/len(l)
+# print(f"average of the list = {avg}"))
+#121#122
+'''done'''
+#123 --min
+# l = [23,4,2,22,1,9] 
+# min_num = l[0]
+# for i in range(len(l)):
+#     if l[i]<min_num:
+#         min_num=l[i]
+# print(f"{min_num} is smallest number")
+#124
+# l = [23,4,2,22,1,9] 
+# max_num = l[0]
+# for i in range(len(l)):
+#     if l[i]>max_num:
+#         max_num=l[i]
+# print(f"{max_num} is largest number")
+#125 to #132 -- 
+'''done'''
+#133
+# l=[0,1,22,33,22,1]
+# l.remove(33)
+# print(l)
 
+#dictionary
 
+# data = {"a": 100, "b": 200, "c": 300}
 
+# # 1. Loop over keys (default)
+# for key in data:
+#     print(key, "->", data[key])
 
-        
+# # 2. Loop over values directly
+# for val in data.values():
+#     print(val)
 
+# # 3. Loop over both keys and values using .items()
+# for key, val in data.items():
+#     print(f"Key: {key}, Value: {val}")
 
+#134
+# n = int(input("Enter the size of the dictionary -> "))
+# d ={}
+# for i in range(n):
+#     val = int(input(f"Enter valuse {i} of the dict -> "))
+#     d[i]= val
+# print(d)
+# x = sorted(d.values())
+# print(x)
+#135
+# x = {"name": "Kashish","gender":"female"}
+# print(x)
+# x.update({"age":"21"})
+# print(x)
+#136 (a)
+# d = {'name': 'Kashish', 'gender': 'female', 'age': '21'}
+# n = input("keys find -> ")
+# if n in d.keys():
+#     print("exist")
+# else:
+#     print("not")
+#(b)
+# item = input("Enter item -> ")
+# for i in d.values():
+#     if i == item:
+#         print("exists")
+#         break
+# else:
+#     print("not")
+#137
+# d = {}
+# n = int(input("Enter the size of dictinary -> "))
+# for i in range(1, n+1):
+#     d[i]=i**2
+# print(d)
+#138
+# cube_dict={}
+# while True:
+#     n = int(input("Enter an integer and 0 for exit = "))
+#     if n == 0:
+#         break
+
+#     cube_dict[n] = n **3
+# print(cube_dict)
+#139
+# n = input("Enter the string ->  ")
+# d = {}
+# for i in n:
+#     if i in d:
+#         d[i]+=1
+#     else:
+#         d[i]=1
+# print(d)
+#tuple
 
 
 

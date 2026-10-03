@@ -295,7 +295,7 @@ ex-h--0
 108.factorial using function
 109.prime number function
 110.program to interchange first and last elements in a list 
-111.python program to swap two element in a list
+111.python program to swap index of two elements in a list
 112.way ro find length of list
 113.maximum of two number 
 114.minimum of two number
@@ -303,7 +303,7 @@ ex-h--0
 116.differenet ways to clear a list in python
 117.revsering a list
 118.clonning or copying a list 
-119.count occurrences of ana element in a list
+119.count occurrences of an element in a list
 120.python program to find sum and average of list in python
 121.//sum of number digit in list
 122.mulitply all number in the list
@@ -318,16 +318,20 @@ ex-h--0
 131.program to count even and odd
 132.program to print even and odd in range
 133.remove number in a list
+#-------------dict ----------------
 134.wap to sort a dictonary by value
 135.wap to add a key and value in an exsisting dict
-136.wap to check weather a given key already exist in dict
+136. -- (a) --- wap to check weather a given key already exist in dict
+--------(b) --- wap to check the given item exist or not 
 137.wap to generate and print a dict that contain a number between 1 to n in the form of (x:x*x)
 138.wap to print a dictionary as like {x:x**3} till the user not given 0 . if user give 0 then print the exist number this
 139.wap to print frequency of string in dictionary
+#----tuple ----------
 140.wap to print sum of number in turple
 141.wap to find max , secondmax in turple
 142.covertinf turple to list
 143.coverting list to turple
+#--resursion-------
 144.factorial by recursion
 145.fabnocci series using recursion
 146.two sum of list 
