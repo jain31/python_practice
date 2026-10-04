@@ -876,6 +876,25 @@ sum = 0
 #         d[i]=1
 # print(d)
 #tuple
+#140
+# t =(1,2,3,7,5,6,8,9,10,4)
+# sum = 0
+# for i in t:
+#     sum+=i
+# print(sum)
+#141 ------------------------dry run ------------
+t = (2,3,4,5,6)
+max_t = t[0]
+second_max_t = t[0]
+for i in range(len(t)):
+    if t[i]>max_t:
+        second_max_t = max_t
+        max_t = t[i]
+    elif t[i]>second_max_t and t[i]!= max_t:
+        second_max_t=t[i]
+print(max_t,second_max_t)
+
+
 
 
 
