@@ -883,18 +883,136 @@ sum = 0
 #     sum+=i
 # print(sum)
 #141 ------------------------dry run ------------
-t = (2,3,4,5,6)
-max_t = t[0]
-second_max_t = t[0]
-for i in range(len(t)):
-    if t[i]>max_t:
-        second_max_t = max_t
-        max_t = t[i]
-    elif t[i]>second_max_t and t[i]!= max_t:
-        second_max_t=t[i]
-print(max_t,second_max_t)
+# t = (2,3,4,5,6)
+# max_t = t[0]
+# second_max_t = t[0]
+# for i in range(len(t)):
+#     if t[i]>max_t:
+#         second_max_t = max_t
+#         max_t = t[i]
+#     elif t[i]>second_max_t and t[i]!= max_t:
+#         second_max_t=t[i]
+# print(max_t,second_max_t)
+#142---------5/10/2026--------
+# t = (5,6,7,8,9,0)
+# print(t)
+# l = list(t)
+# print(l)
+#143
+# l=[0,9,87,686,99]
+# print(l)
+# t = tuple(l)
+# print(t)
+#---------recursion----------
+#144
+# def fact(n):
+#     if n<=1:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+# print(fact(n=5))
 
+#145
+# def fib(n):
+#     if n<=1:
+#         return 1
+#     else:
+#         return fib(n-1)+fib(n-2)
+# n = 5
+# for i in range(n+1):
+#     print(fib(i),end=" ")
+#146
+# l1 = [2,3,4,5,6,7]
+# for i in range(len(l1)):
+#     for j in range(i+1,len(l1)):
+#         if l1[i]+l1[j]==9:
+#             print(l1[i],l1[j])
+#147
+# s = "myselfkashishjain"
+# if (len(s)<11):
+#     print(s)
+# else:
+#     print(s[0:10],"....")
 
+#148
+# l1 = [1,2,3,4,5,6,7,8,9,0]
+# l2 = [1,2,3,4,5,6,7,8,9,0]
+# sum = []
+# for i in range(len(l1)):
+#     sum.append(l1[i]+l2[i])
+# print(sum)
+
+ #149
+# r = int(input("Enter the number of row -> "))
+# c = int(input("Enter the number of column -> "))
+# l =[]
+# for i in range(r):
+#     k =[]
+#     for j in range(c):
+#         e = int(input("Enter the element -> "))
+#         k.append(e)
+#     l.append(k)
+# print(l)
+
+# for i in range(len(l)):
+#     for j in range(len(l[i])):
+#         print(l[i][j],end=" ")
+#     print()
+#150
+# r = int(input("Enter the number of row -> "))
+# c = int(input("Enter the number of columns -> "))
+# l = []
+# for i in range(r):
+#     k =[]
+#     for j in range(c):
+#         e = int(input("Enter the elements -> "))
+#         k.append(e)
+#     l.append(k)
+# print(l)
+# sum = 0
+# for i in range(len(l)):
+#     for j in range(len(l)):
+#         sum+=l[i][j]
+# print(f"sum of all elements of the given list = {sum}")
+#151
+# r = int(input("Enter the row -> "))
+# c = int(input("Enter the column -> "))
+# l =[]
+# for i in range(r):
+#     k =[]
+#     for j in range(c):
+#         e = int(input("Enter the elements -> "))
+#         k.append(e)
+#     l.append(k)
+# print(l)
+
+# prod = 1
+# for i in range(len(l)):
+#     for j in range(len(l)):
+#         prod*=l[i][j]
+# print(prod)
+#152 -------binary search ----------
+# l = []
+# n = int(input("Enter the size of the list -> "))
+# for i in range(1,n+1):
+#     e = int(input(f"Enter the {i} element -> "))
+#     l.append(e)
+# print(l)
+# l.sort()
+# print(f"after sorting the elements -> {l}")
+
+# item = int(input("enter the element which you want to search -> "))
+# low = 0
+# high = len(l)-1
+# while(low<=high):
+#     mid = (high+low)//2
+#     if item == l[mid]:
+#         print(f"{item} found at index {mid}")
+#         break
+#     elif item > l[mid]:
+#         low = mid+1
+#     elif item<l[mid]:
+#         high = mid -1
 
 
 

@@ -334,7 +334,7 @@ ex-h--0
 #--resursion-------
 144.factorial by recursion
 145.fabnocci series using recursion
-146.two sum of list 
+146.two sum of list  of particular number
 147.wap to print string only index(0 to 10) after this print (...)
 148.sum of two linear list
 149.asscing of 2d list
